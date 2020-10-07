@@ -5,7 +5,7 @@ const Navbar = () => {
     const { books } = useContext(BookContext)
     return (
         <div className="navbar">
-            <h1>Adewole Book List Application</h1>
+            <h1>AAdewole Book List Application</h1>
             <p>Currently you have {books.length} books to get through...</p>
         </div>
     );
